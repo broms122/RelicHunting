@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RitualAttachableOutcomeEffectDef>
+    <defName>DiscoverRelicHunt</defName>
+    <label>start relic hunt</label>
+    <effectDesc>Start a relic hunt for a random relic from a specific faction.</effectDesc>
+    <letterInfoText>Relic Hunt Available</letterInfoText>
+    <workerClass>RitualAttachableOutcomeEffectWorker_DiscoverAncientComplex</workerClass> <!-- This needs to be a new worker class maybe?  It has the one I copy/pasted from the ancient complex example -->
+  </RitualAttachableOutcomeEffectDef>
+  
+</Defs>

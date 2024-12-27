@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Relic Hunting</name>
+	<author>Broms</author>
+	<packageId>Broms.RelicHunting</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Adds a Relic Hunting ritual reward for hunting down other Ideology's Relics. Idea/Design by Broms, and C# by Taranchuk.</description>
+</ModMetaData>
