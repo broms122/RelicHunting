@@ -32,7 +32,7 @@ namespace RelicHunting
 
 		public static void RegisterIdeo(LordJob_Ritual ritual)
 		{
-			if (Dialog_BeginRitual_DrawExtraInfo_Patch.ideos.TryGetValue(ritual.ritual, out Ideo ideo))
+			if (Dialog_BeginLordJob_DrawQualityDescription_Patch.ideos.TryGetValue(ritual.ritual, out Ideo ideo))
 			{
 				LordJob_Ritual_ExposeData_Patch.targetIdeology[ritual] = ideo;
 			}
