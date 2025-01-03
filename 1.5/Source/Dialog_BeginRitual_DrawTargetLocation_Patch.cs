@@ -36,7 +36,7 @@ namespace RelicHunting
 		public static void DrawTargetIdeology(Dialog_BeginLordJob __instance, Rect viewRect, ref float curY, ref float totalInfoHeight)
 		{
 			if (__instance is Dialog_BeginRitual beginRitual 
-				&& beginRitual.ritual.attachableOutcomeEffect.Worker is RitualAttachableOutcomeEffectWorker_DiscoverRelics)
+				&& beginRitual.ritual?.attachableOutcomeEffect?.Worker is RitualAttachableOutcomeEffectWorker_DiscoverRelics)
 			{
 				Rect rect6 = new Rect(viewRect.x, 0, viewRect.width, 24f);
 				Rect rect7 = new Rect(rect6.xMax - 24f - 4f, rect6.y, 24f, 24f);
