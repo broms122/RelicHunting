@@ -32,9 +32,10 @@ namespace RelicHunting
 
 		public static void RegisterIdeo(LordJob_Ritual ritual)
 		{
-			if (Dialog_BeginLordJob_DrawQualityDescription_Patch.ideos.TryGetValue(ritual.ritual, out Ideo ideo))
+			if (Dialog_BeginLordJob_DrawQualityDescription_Patch.ideos.TryGetValue(ritual.ritual, out var ideoPreceptTuple))
 			{
-				LordJob_Ritual_ExposeData_Patch.targetIdeology[ritual] = ideo;
+				LordJob_Ritual_ExposeData_Patch.targetIdeology[ritual] = ideoPreceptTuple.Item1;
+				LordJob_Ritual_ExposeData_Patch.targetRelicPrecept[ritual] = ideoPreceptTuple.Item2;
 			}
 		}
 	}

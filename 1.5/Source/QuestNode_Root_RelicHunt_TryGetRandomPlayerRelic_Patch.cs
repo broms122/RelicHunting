@@ -18,6 +18,13 @@ namespace RelicHunting
 				relic = null;
 				return true;
 			}
+			
+			relic = RitualAttachableOutcomeEffectWorker_DiscoverRelics.targetRelic;
+			if (relic is not null)
+			{
+				__result = true;
+				return false;
+			}
 			__result = (from p in ideo.GetAllPreceptsOfType<Precept_Relic>()
 						where p.CanGenerateRelic
 						select p).TryRandomElement(out relic);

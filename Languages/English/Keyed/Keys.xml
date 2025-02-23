@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-<RelicHunting_1>test</RelicHunting_1>
+
   <RelicHunting_IdeoTargetDesc>The ideoligion you want to hunt relics from</RelicHunting_IdeoTargetDesc>
+  <RelicHunting_IdeoConversionTarget>Target ideology</RelicHunting_IdeoConversionTarget>
+  <RelicHunting_TargetRelic>Target relic</RelicHunting_TargetRelic>
+  <RelicHunting_RelicTargetDesc>The relic you want to hunt</RelicHunting_RelicTargetDesc>
+  <RelicHunting_Random>Random</RelicHunting_Random>
+  <RelicHunting_RandomRelic>Random relic</RelicHunting_RandomRelic>
 </LanguageData>
